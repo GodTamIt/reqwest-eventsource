@@ -29,5 +29,5 @@ mod reqwest_ext;
 pub mod retry;
 
 pub use error::{CannotCloneRequestError, Error};
-pub use event_source::{Event, EventSource, ReadyState};
+pub use event_source::{Event, EventSource, MessageEvent, ReadyState};
 pub use reqwest_ext::RequestBuilderExt;
